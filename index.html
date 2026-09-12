@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>栖美术馆 · 当代美术展示</title>
+<meta name="description" content="栖美术馆线上展厅：当代油画、水墨、雕塑、摄影与数字艺术的常设展与特展信息。">
+<link rel="preconnect" href="https://picsum.photos">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark">栖</span>
+      <span class="brand-text">栖美术馆<small>QI ART MUSEUM</small></span>
+    </a>
+
+    <nav class="site-nav" id="siteNav" aria-label="主导航">
+      <a href="#exhibitions">展览</a>
+      <a href="#gallery">作品</a>
+      <a href="#artist">艺术家</a>
+      <a href="#visit">参观</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn btn-ghost" href="#visit">预约参观</a>
+      <button class="nav-toggle" id="navToggle" aria-label="展开导航菜单" aria-expanded="false" aria-controls="siteNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" id="top">
+    <div class="hero-bg">
+      <img id="heroImage" src="https://picsum.photos/seed/qi-hero-hall/1800/1100" alt="展厅现场">
+    </div>
+    <div class="hero-veil"></div>
+
+    <div class="hero-content">
+      <p class="eyebrow">当前特展 · 2026.06.12 — 2026.10.08</p>
+      <h1>光在纸背停顿的<em>十四种方式</em></h1>
+      <p class="hero-lead">
+        十四位艺术家以纸、布、金属与像素为介质，重述光线在物质表面停留的瞬间。
+        本页面为线上展厅，所有图像均为随机示例素材。
+      </p>
+      <div class="hero-cta">
+        <a class="btn btn-solid" href="#gallery">浏览作品</a>
+        <a class="btn btn-line" href="#exhibitions">展览日程</a>
+      </div>
+    </div>
+
+    <dl class="hero-meta">
+      <div><dt>展期</dt><dd>118 天</dd></div>
+      <div><dt>作品</dt><dd>142 件</dd></div>
+      <div><dt>展厅</dt><dd>一至三层</dd></div>
+    </dl>
+  </section>
+
+  <section class="marquee" aria-hidden="true">
+    <div class="marquee-track" id="marqueeTrack"></div>
+  </section>
+
+  <section class="section exhibitions" id="exhibitions">
+    <div class="section-head">
+      <p class="eyebrow">Exhibitions</p>
+      <h2>正在展出与即将开幕</h2>
+      <p class="section-note">四个展厅轮换陈列，常设展全年开放，特展需单独预约时段。</p>
+    </div>
+
+    <div class="exhibit-grid">
+      <article class="exhibit-card reveal">
+        <div class="exhibit-media">
+          <img src="https://picsum.photos/seed/qi-expo-light/900/1100" alt="展览《光的十四种停顿》现场" loading="lazy" decoding="async">
+          <span class="tag tag-now">正在展出</span>
+        </div>
+        <div class="exhibit-body">
+          <p class="date">2026.06.12 — 2026.10.08</p>
+          <h3>光的十四种停顿</h3>
+          <p>十四位艺术家的跨媒介群展，聚焦光在物质表面的短暂驻留。</p>
+          <p class="place">一号展厅 · 二层</p>
+        </div>
+      </article>
+
+      <article class="exhibit-card reveal">
+        <div class="exhibit-media">
+          <img src="https://picsum.photos/seed/qi-expo-ink/900/1100" alt="展览《墨的呼吸》现场" loading="lazy" decoding="async">
+          <span class="tag tag-now">正在展出</span>
+        </div>
+        <div class="exhibit-body">
+          <p class="date">2026.04.02 — 2026.11.30</p>
+          <h3>墨的呼吸</h3>
+          <p>从宋代册页到当代水墨装置，梳理笔痕与纸纤维之间的相互试探。</p>
+          <p class="place">二号展厅 · 一层</p>
+        </div>
+      </article>
+
+      <article class="exhibit-card reveal">
+        <div class="exhibit-media">
+          <img src="https://picsum.photos/seed/qi-expo-stone/900/1100" alt="展览《石与间隙》现场" loading="lazy" decoding="async">
+          <span class="tag tag-soon">即将开幕</span>
+        </div>
+        <div class="exhibit-body">
+          <p class="date">2026.09.26 — 2027.01.18</p>
+          <h3>石与间隙</h3>
+          <p>九件大型雕塑占据中庭，讨论重量、空隙与观看者身体的关系。</p>
+          <p class="place">中庭 · 全层贯通</p>
+        </div>
+      </article>
+
+      <article class="exhibit-card reveal">
+        <div class="exhibit-media">
+          <img src="https://picsum.photos/seed/qi-expo-pixel/900/1100" alt="展览《像素之外》现场" loading="lazy" decoding="async">
+          <span class="tag tag-soon">即将开幕</span>
+        </div>
+        <div class="exhibit-body">
+          <p class="date">2026.11.07 — 2027.03.01</p>
+          <h3>像素之外</h3>
+          <p>生成艺术与实时影像实验，作品会随参观者的停留时长缓慢变形。</p>
+          <p class="place">三号展厅 · 三层</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section gallery" id="gallery">
+    <div class="section-head">
+      <p class="eyebrow">Collection</p>
+      <h2>线上作品陈列</h2>
+      <p class="section-note">点击任意作品可查看大图与说明。图像为随机示例素材，刷新后重新抽取。</p>
+    </div>
+
+    <div class="gallery-bar">
+      <div class="filters" id="filters" role="group" aria-label="按媒介筛选作品"></div>
+      <button class="btn btn-line btn-sm" id="shuffleBtn" type="button">
+        <span class="dice" aria-hidden="true"></span>换一批图像
+      </button>
+    </div>
+
+    <div class="gallery-grid" id="galleryGrid"></div>
+    <p class="gallery-empty" id="galleryEmpty" hidden>该分类下暂无作品。</p>
+  </section>
+
+  <section class="section artist" id="artist">
+    <div class="artist-inner">
+      <div class="artist-media reveal">
+        <img src="https://picsum.photos/seed/qi-artist-portrait/900/1100" alt="焦点艺术家工作室肖像" loading="lazy" decoding="async">
+        <figcaption>工作室 · 2026 春</figcaption>
+      </div>
+      <div class="artist-text reveal">
+        <p class="eyebrow">Artist in Focus</p>
+        <h2>沈屿 · 用慢速颜料记录天气</h2>
+        <p>
+          沈屿在十二年时间里持续以同一片海岸为对象作画。她调配的颜料干燥周期长达数月，
+          画面上因此保留了不同季节的风、盐分与湿度留下的痕迹。
+        </p>
+        <p>
+          本次展出的六件作品首次完整呈现她的「候风」系列，其中三件在展期内会继续缓慢变色。
+        </p>
+        <ul class="artist-facts">
+          <li><span>1988</span>生于浙江舟山</li>
+          <li><span>2014</span>开始「候风」系列创作</li>
+          <li><span>2026</span>栖美术馆年度焦点艺术家</li>
+        </ul>
+        <a class="btn btn-solid" href="#gallery">查看她的作品</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section visit" id="visit">
+    <div class="section-head">
+      <p class="eyebrow">Visit</p>
+      <h2>参观信息</h2>
+      <p class="section-note">线上展厅全天开放；实体场馆请提前一日预约。</p>
+    </div>
+
+    <div class="visit-grid">
+      <div class="visit-card reveal">
+        <h3>开放时间</h3>
+        <table class="hours">
+          <tbody>
+            <tr><th scope="row">周二 — 周五</th><td>10:00 — 18:00</td></tr>
+            <tr><th scope="row">周六 — 周日</th><td>09:30 — 20:00</td></tr>
+            <tr><th scope="row">周一</th><td>闭馆整理</td></tr>
+            <tr><th scope="row">法定节假日</th><td>照常开放</td></tr>
+          </tbody>
+        </table>
+        <p class="hint">闭馆前 30 分钟停止入场。</p>
+      </div>
+
+      <div class="visit-card reveal">
+        <h3>票务</h3>
+        <ul class="tickets">
+          <li><span>常设展</span><b>免费</b></li>
+          <li><span>特展全票</span><b>¥ 80</b></li>
+          <li><span>学生 / 长者</span><b>¥ 40</b></li>
+          <li><span>双人同行</span><b>¥ 130</b></li>
+        </ul>
+        <p class="hint">每周五 18:00 后特展半价。</p>
+      </div>
+
+      <div class="visit-card reveal">
+        <h3>到达方式</h3>
+        <div class="map">
+          <img src="https://picsum.photos/seed/qi-map-street/800/500" alt="美术馆周边街区示意图" loading="lazy" decoding="async">
+        </div>
+        <p class="addr">江岸区美术馆路 18 号 · 栖美术馆</p>
+        <p class="hint">地铁 4 号线「江岸美术馆」站 B 口步行 6 分钟。</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark">栖</span>
+      <p>栖美术馆 · 线上展厅</p>
+    </div>
+    <nav class="footer-nav" aria-label="页脚导航">
+      <a href="#exhibitions">展览</a>
+      <a href="#gallery">作品</a>
+      <a href="#artist">艺术家</a>
+      <a href="#visit">参观</a>
+    </nav>
+    <p class="copyright">© <span id="year">2026</span> 栖美术馆 · 页面仅作展示用途，图像来自 picsum.photos 随机素材。</p>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lbTitle" hidden>
+  <div class="lightbox-backdrop" data-close></div>
+  <div class="lightbox-panel">
+    <button class="lb-close" type="button" data-close aria-label="关闭大图查看">✕</button>
+    <button class="lb-arrow lb-prev" type="button" id="lbPrev" aria-label="上一件作品">‹</button>
+    <button class="lb-arrow lb-next" type="button" id="lbNext" aria-label="下一件作品">›</button>
+    <figure class="lb-figure">
+      <img id="lbImage" src="" alt="">
+      <figcaption>
+        <h3 id="lbTitle"></h3>
+        <p class="lb-sub" id="lbSub"></p>
+        <p class="lb-desc" id="lbDesc"></p>
+      </figcaption>
+    </figure>
+    <p class="lb-counter" id="lbCounter"></p>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
